@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+docs
+*.local
+coverage
+*.log
+.envrc
+storybook-static/
+.vscode
+
+# npm release cache
+~/.npm
