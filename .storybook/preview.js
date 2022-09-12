@@ -9,6 +9,9 @@ export const parameters = {
       order: ['Components', ['Actions', 'Forms', 'Layout'], 'Recipes'],
     },
   },
+  playroom: {
+    url: 'http://localhost:9000',
+  },
   actions: { argTypesRegex: '^on[A-Z].*' },
   backgrounds: {
     values: [
