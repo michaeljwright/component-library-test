@@ -1,7 +1,8 @@
 module.exports = {
   components: './lib/main',
-  outputPath: './docs',
-
+  outputPath: './storybook-static/playroom',
+  port: 9000,
+  openBrowser: true,
   //   Optional configuration
   title: 'Component Library Design System',
   frameComponent: './.playroom/FrameComponent.js',

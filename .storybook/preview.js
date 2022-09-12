@@ -10,7 +10,7 @@ export const parameters = {
     },
   },
   playroom: {
-    url: 'http://localhost:9000',
+    url: '/playroom/index.html',
   },
   actions: { argTypesRegex: '^on[A-Z].*' },
   backgrounds: {
