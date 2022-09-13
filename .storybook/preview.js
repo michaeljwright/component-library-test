@@ -10,7 +10,7 @@ export const parameters = {
     },
   },
   playroom: {
-    url: '/playroom/index.html',
+    url: 'https://precious-palmier-4fcbcf.netlify.app',
   },
   actions: { argTypesRegex: '^on[A-Z].*' },
   backgrounds: {
