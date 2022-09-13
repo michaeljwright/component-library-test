@@ -1,6 +1,6 @@
 module.exports = {
   components: './lib/main',
-  outputPath: './storybook-static',
+  outputPath: './storybook-static/playroom',
   port: 9000,
   openBrowser: false,
   //   Optional configuration
