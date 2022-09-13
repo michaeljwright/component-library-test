@@ -15,7 +15,7 @@
   "scripts": {
     "build": "vite build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -s public && npm run playroom:build",
+    "build-storybook": "NODE_ENV=development playroom start",
     "playroom:start": "NODE_ENV=development playroom start",
     "playroom:build": "NODE_ENV=production playroom build",
     "prerelease": "npm run build",
